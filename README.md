@@ -56,20 +56,6 @@ https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/
 ![Alt text](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/class_diagram.png "Class Diagram")
 
 
-# Test Coverage
-
-I’ve used the [Cobertura](https://github.com/cobertura/cobertura) code coverage maven plugin to ensure the unit tests provide full coverage. I’ve configured the plugin with the ignoreTrivial flag to ignore trivial one line methods such as getters and setters. The current coverage is 100% as shown in the screenshot below.
-
-![Alt text](https://github.com/omerio/bill-discounts/blob/master/img/code_coverage.png "Test Coverage")
-
-To run the test coverage:
-
-```bash
-    mvn cobertura:cobertura
-```
-The coverage report will be available inside the target/site/cobertura/index.html directory
-
-
 # Generic & Simple Code
 
 I've implemented the requirements in a generic way such that developers can easily create new discounts. The code is well commented and easy to understand.

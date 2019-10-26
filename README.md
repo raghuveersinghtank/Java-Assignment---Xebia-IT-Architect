@@ -25,7 +25,7 @@ Write a program with test cases such that given a bill, it finds the net payable
 Requirements:
 
 - Apache Maven 3.3
-- Java 1.7
+- Java 1.7 
 
 Clone and build the project
 

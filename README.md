@@ -23,11 +23,16 @@ Write a program with test cases such that given a bill, it finds the net payable
 •object oriented programming approach 
 
 •unit test (may be using xUnit) and code coverage 
+
 •code to be generic and simple 
+
 •leverage today's best coding practices 
+
 •clear README.md that explains how the code and the test can be run and how the coverage reports can be generated
 
 Getting Started 
+
 1.To start with, you can create one GitHub Repository for the project share it with us. 
+
 2.You need to regularly commit your progress to the GitHub repository and let us know once the exercise is completed. 
 

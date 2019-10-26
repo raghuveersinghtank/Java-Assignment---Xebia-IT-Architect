@@ -1,6 +1,6 @@
 # Summary
 As requested the use case in the exercise is implemented in a generic way such that discounts can easily be created and applied to bills. The main test cases are in
-[BillTest](https://github.com/omerio/bill-discounts/blob/master/src/test/java/com/retail/model/bill/BillTest.java). The discounts in the exercise are created in [DiscountServiceImpl](https://github.com/omerio/bill-discounts/blob/master/src/main/java/com/retail/service/discount/DiscountServiceImpl.java). Below is a summary of my approach, rationale and completed activities.
+[BillTest](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/BillTest.java). The discounts in the exercise are created in [DiscountServiceImpl](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/DiscountServiceImplTest.java). Below is a summary of my approach, rationale and completed activities.
 
 # Coding exercise:
 

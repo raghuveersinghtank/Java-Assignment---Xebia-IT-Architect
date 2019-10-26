@@ -52,6 +52,7 @@ A high level class diagram of my approach is shown below. I've followed an OO ap
 - I felt there is a great deal of business logic related to discounts so implemented them in a generic way such that different discounts can be created. I've used a common discounts super class [GenericDiscount](https://github.com/omerio/bill-discounts/blob/master/src/main/java/com/retail/model/discount/GenericDiscount.java) for the common functionality with subclasses implementing the logic related to the applicability of the discount. 
 - I've modelled and created subclasses to represent each type of discount (e.g. user type, customer period or multiples of the net) and ensured this is done in an OO way.
 - I've used interfaces where possible to reduce coupling.
+https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/class_diagram.png
 
 
 

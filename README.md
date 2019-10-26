@@ -34,9 +34,11 @@ Requirements:
 Clone and build the project
 
 ```bash
-    git clone https://github.com/omerio/bill-discounts.git
+    https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect.git
     cd bill-discounts
     mvn install
+    
+    Project inside Java-Assignment---Xebia-IT-Architect-master\Java-Assignment---Xebia-IT-Architect-master\bill-discounts-master.zip\bill-discounts-master
 ```    
 
 # Assumptions
@@ -51,46 +53,13 @@ A high level class diagram of my approach is shown below. I've followed an OO ap
 - I've modelled and created subclasses to represent each type of discount (e.g. user type, customer period or multiples of the net) and ensured this is done in an OO way.
 - I've used interfaces where possible to reduce coupling.
 
-![Alt text](https://github.com/omerio/bill-discounts/blob/master/img/class_diagram.png "Class Diagram")
-
-# Test Coverage
-
-I’ve used the [Cobertura](https://github.com/cobertura/cobertura) code coverage maven plugin to ensure the unit tests provide full coverage. I’ve configured the plugin with the ignoreTrivial flag to ignore trivial one line methods such as getters and setters. The current coverage is 100% as shown in the screenshot below.
-
-![Alt text](https://github.com/omerio/bill-discounts/blob/master/img/code_coverage.png "Test Coverage")
-
-To run the test coverage:
-
-```bash
-    mvn cobertura:cobertura
-```
-The coverage report will be available inside the target/site/cobertura/index.html directory
 
 
 # Generic & Simple Code
 
 I've implemented the requirements in a generic way such that developers can easily create new discounts. The code is well commented and easy to understand.
 
-# Leverage Today’s Best Coding Practices
 
-To ensure the code follows the best practices and standards, I’ve used the [Checkstyle](https://github.com/checkstyle/checkstyle) maven plugin with the [Google Checkstyle](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml) settings. Using the plugin I've double checked the code to ensure all style issues are fixed.
-
-To run the checkstyle report:
-
-```bash
-    mvn checkstyle:checkstyle
-```
 
 I've also followed the Java coding standards and defensive programming, i.e. validation, checking for nulls and invalid values where possible. And where appropriate comments are added to the code to ensure other developers can also understand and easily work on the code.
 
-To run FindBugs plugin:
-
-```bash
-    mvn findbugs:check
-```
-
-To run the PMD plugin:
-
-```bash
-    mvn pmd:check
-```

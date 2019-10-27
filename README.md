@@ -1,6 +1,6 @@
 # Summary
-As requested the use case in the exercise is implemented in a generic way such that discounts can easily be created and applied to bills. The main test cases are in
-[BillTest](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/BillTest.java). The discounts in the exercise are created in [DiscountServiceImpl](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/DiscountServiceImplTest.java). Below is a summary of my approach, rationale and completed activities.
+As requested the use cases in the assignment is implemented in a generic way such that discounts can easily be created and applied to bills. The main test cases are in
+[BillTest](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/BillTest.java) where explained each test case through comments. The discounts in the assignment are created in [DiscountServiceImpl](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/DiscountServiceImplTest.java). Below is a summary of my approach, rationale and completed activities.
 
 # Coding exercise:
 
@@ -31,8 +31,10 @@ Clone and build the project
 
 ```bash
     https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect.git
-    cd bill-discounts
+    cd bill-discounts-master
     mvn install
+    mvn compile
+    mvn test
     
     Project inside Java-Assignment---Xebia-IT-Architect-master\Java-Assignment---Xebia-IT-Architect-master\bill-discounts-master.zip\bill-discounts-master
 ```    

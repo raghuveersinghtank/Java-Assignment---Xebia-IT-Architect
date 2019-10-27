@@ -1,6 +1,6 @@
 # Summary
-As requested the use cases in the assignment is implemented in a generic way such that discounts can easily be created and applied to bills. The main test cases are in
-[BillTest](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/BillTest.java) where explained each test case through comments. The discounts in the assignment are created in [DiscountServiceImpl](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/DiscountServiceImplTest.java). Below is a summary of my approach, rationale and completed activities.
+As Mentioned the use cases in the assignment is implemented in a generic way such that discounts can easily be created and applied to bills. The main test cases are in
+[BillTest](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/BillTest.java) where explained each test case through comments. The discounts in the assignment are created in [DiscountServiceImpl](https://github.com/raghuveersinghtank/Java-Assignment---Xebia-IT-Architect/blob/master/DiscountServiceImplTest.java). Below is a summary of my approach, rationale, logical and completed activities.
 
 # Coding exercise:
 
@@ -42,6 +42,7 @@ Clone and build the project
 # Assumptions
 - When applying multiple discounts, first discount is applied to the net, second discount is applied to the discounted net, etc…
 - Mutually exclusive discounts are applied first, for example the percentage based ones
+- Mentioned use test case as well ae method in Bill Test java class for discounted and without discounted.
 - An entire bill can only be for one category, for example one bill can be groceries, another bill might be for clothing, etc...
 
 # Object Oriented Approach

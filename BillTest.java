@@ -23,7 +23,7 @@ import com.retail.types.UserType;
  * 
  * The discounts tested here are the one created by the DiscountsService
  * 
- * @author Raghuveer Singh Tank
+ * @Author Raghuveer Singh Tank
  *
  */
 public class BillTest {

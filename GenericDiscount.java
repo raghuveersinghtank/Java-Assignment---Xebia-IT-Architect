@@ -10,7 +10,7 @@ import com.retail.types.DiscountType;
 
 /**
  * A generic discount that can be applied as either a percentage or
- * a fixed amount. The discount includes a list of CategoryTypes to 
+ * a fixed amount. The discount includes a list of categoryTypes to 
  * exclude.
  * 
  * @author Raghuveer Singh Tank
